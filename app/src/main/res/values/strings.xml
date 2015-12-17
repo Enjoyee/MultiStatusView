@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiStatusView</string>
+    <string name="action_loading">loading</string>
+    <string name="action_err">err</string>
+    <string name="action_empty">empty</string>
+    <string name="action_content">content</string>
+</resources>

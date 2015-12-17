@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 多状态选择view(加载中，加载失败，加载成功) -->
+    <declare-styleable name="multi_status_view">
+        <attr name="msv_loading" format="reference" />
+        <attr name="msv_err" format="reference" />
+        <attr name="msv_empty" format="reference" />
+        <attr name="msv_view_status" format="enum">
+            <enum name="loading" value="0" />
+            <enum name="error" value="1" />
+            <enum name="content" value="2" />
+            <enum name="empty" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>
